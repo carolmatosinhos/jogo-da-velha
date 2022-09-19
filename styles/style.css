@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\1F7E2";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.reset {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(71, 165, 219);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
